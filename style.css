@@ -1,0 +1,43 @@
+.slider{
+    background-image: url('BgSlider.png' ) ;
+    background-size: cover;
+    }
+    .arrowleft{
+    padding: 180px 0px 0px 0px;
+    }
+    .arrowright{
+    padding: 180px 0px 0px 230px;
+    }
+    .ButtonHeader{
+    padding: 100px 0px 0px 0px;
+    color: white;
+    }
+    
+    .animate-grow {
+    height: 300px;
+    line-height: 30px;
+    
+    border-radius: 20px;
+    
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    animation: animate_grow 2s infinite;
+    }
+    .animate-grow:hover {
+    animation: none;
+    }
+    
+    @keyframes animate_grow {
+    0% {
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    transform: scale3d(1, 1, 1);
+    }
+    }
+    
